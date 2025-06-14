@@ -16,3 +16,6 @@ jobs:
         run: npx htmlhint "**/*.html"
       - name: Lint CSS Files
         run: npx stylelint "**/*.css"
+      - name: build static Website
+        rum: npx parcel build "./src/index.html" --dist-dir "./dist"
+        
