@@ -8,7 +8,7 @@ on:
       - synchroize
 jobs:
   linting-develop-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: clone Repository
         uses: actions/checkout@v4
