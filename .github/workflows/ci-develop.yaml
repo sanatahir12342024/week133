@@ -5,7 +5,7 @@ on:
       - develop
     types:
       - opened
-      - synchroize
+      - synchronize
 jobs:
   linting-develop-job:
     runs-on: ubuntu-latest
